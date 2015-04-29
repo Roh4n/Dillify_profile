@@ -8,7 +8,7 @@ body {
   color:#777;
   font-weight:300;
    background-size: 110% auto;
-    height: 100%;
+  
   
 }
 
@@ -22,7 +22,7 @@ p, ul, ol, table, pre, dl {
 }
 
 h1, h2, h3 {
-  line-height:1.1;
+  line-height:1;
 }
 
 h1 {
@@ -108,7 +108,7 @@ header {
 
 header ul {
   list-style:none;
-  height:40px;
+  height:30px;
   
   padding:0;
   
@@ -130,7 +130,7 @@ header li {
   width:89px;
   float:left;
   border-right:1px solid #d2d2d2;
-  height:40px;
+  height:30px;
 }
 
 header ul a {
@@ -140,7 +140,7 @@ header ul a {
   display:block;
   text-align:center;
   padding-top:6px;
-  height:40px;
+  height:30px;
 }
 
 strong {
@@ -186,7 +186,8 @@ footer {
   width:270px;
   float:left;
   bottom:0px;
-  position:relative;
+  position:fixed;
+  z-index:999999;
 }
 
 @media print, screen and (max-width: 960px) {
