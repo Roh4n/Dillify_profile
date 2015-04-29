@@ -184,10 +184,12 @@ hr {
 
 footer {
   width:270px;
+  display: block;
   float:left;
   bottom:0px;
   position:fixed;
   z-index:999999;
+  padding: 20px;
 }
 
 @media print, screen and (max-width: 960px) {
